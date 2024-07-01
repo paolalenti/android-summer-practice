@@ -1,0 +1,23 @@
+package com.example.homework2
+
+import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.Fragment
+import com.example.homework2.R
+import com.example.homework2.databinding.FragmentManBinding
+import com.example.homework2.databinding.FragmentSettingsBinding
+
+class ManFragment : Fragment(R.layout.fragment_man) {
+
+    private var binding: FragmentManBinding? = null
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding = FragmentManBinding.bind(view)
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
+    }
+}

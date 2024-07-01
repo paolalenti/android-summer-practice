@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ДомашнееЗадание2</string>
+    <string name="profile_screen">профиль</string>
+    <string name="settings_screen">настройки</string>
+    <string name="main_screen">основа</string>
+    <string name="man_screen">мужичок</string>
+    <string name="bluetooth_screen">bluetooth</string>
+    <string name="call_screen">звонок</string>
+    <string name="input_text">Ввод</string>
+    <string name="send_btn">Отправить</string>
+</resources>
