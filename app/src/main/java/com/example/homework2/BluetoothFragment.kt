@@ -5,7 +5,6 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.homework2.R
 import com.example.homework2.databinding.FragmentBluetoothBinding
-import com.example.homework2.databinding.FragmentSettingsBinding
 
 class BluetoothFragment : Fragment(R.layout.fragment_bluetooth) {
 

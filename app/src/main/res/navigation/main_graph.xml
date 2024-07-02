@@ -37,10 +37,19 @@
         android:id="@+id/manFragment"
         android:name="com.example.homework2.ManFragment"
         android:label="ManFragment"
-        tools:layout="@layout/fragment_man"/>
+        tools:layout="@layout/fragment_man">
+        <action
+            android:id="@+id/action_manFragment_to_manAdvancedFragment"
+            app:destination="@id/manAdvancedFragment" />
+    </fragment>
     <fragment
         android:id="@+id/callFragment"
         android:name="com.example.homework2.CallFragment"
         android:label="CallFragment"
         tools:layout="@layout/fragment_call"/>
+    <fragment
+        android:id="@+id/manAdvancedFragment"
+        android:name="com.example.homework2.ManAdvancedFragment"
+        android:label="fragment_man_advanced"
+        tools:layout="@layout/fragment_man_advanced" />
 </navigation>
